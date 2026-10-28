@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-main">
+                <div class="panto-font">
+                    <a href="#">Panto</a>
+                </div>
+
+                <div class="nav-inner-flex">
+                    <a href="#" class="dropdown-link" id="dropdownToggle">
+                        Furniture
+                        <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </a>
+                    <a href="#">Shop</a>
+                    <a href="#">About us</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="image-bag">
+                    <a href="#" id="addToCartBtn"> 
+                        <img src="../mebel/images/Bag.png" alt="Cart">
+                        <span class="cart-badge" id="cartCount">0</span>
+                    </a>
+                </div>
+
+            </nav>
+
+            <div class="header-bottom">
+                <div class="modern">
+                    <h1>Make your interior more <br> minimalistic & modern</h1>
+                </div>
+
+                <div class="modern-bottom">
+                    <p>Turn your room with panto into a lot more minimalist <br> and modern with ease and speed</p>
+                </div>
+
+                <form class="search-box" action="#" method="GET">
+                    <input type="text" 
+                    class="search-input"
+                    placeholder="Search furniture"
+                    required
+                    />
+                    <button type="submit" class="search-btn" aria-label="Search">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-us">
+        <div class="container">
+            <div class="flex-main">
+                <div class="main-us-choose">
+                    <h1>Why <br> Choosing Us</h1>
+               </div>
+
+                <div class="card-1">
+                    <h4>Luxury facilities</h4>
+                    <p>The advantage of hiring a workspace <br>
+                    with us is that givees you comfortable <br>
+                    service and all-around facilities.
+                    </p>
+                    <a href="#" class="info-orange">
+                    More Info
+                    <svg class="arrow-right" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                    </a>
+                </div>
+
+                <div class="card-1">
+                    <h4>Affordable Price</h4>
+                    <p>You can get a workspace of the highst <br> 
+                        quality at an affordable price and still <br>
+                        enjoy the facilities that are oly here.
+                    </p>
+                    <a href="#" class="info-orange">
+                More Info
+                <svg class="arrow-right" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+                </div>
+
+                <div class="card-1">
+                    <h4>Many Choices</h4>
+                    <p>We provide many unique work space <br>
+                         choices so that you can choose the <br>
+                         workspace to your liking.
+                    </p>
+                    <a href="#" class="info-orange">
+                    More Info
+                    <svg class="arrow-right" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="selling-products">
+    <div class="container">
+        <h1 class="sell">Best Selling Product</h1>
+
+        <div class="tabs-filter">
+            <button class="tab-btn active" data-category="chair">Chair</button>
+            <button class="tab-btn" data-category="beds">Beds</button>
+            <button class="tab-btn" data-category="sofa">Sofa</button>
+            <button class="tab-btn" data-category="lamp">Lamp</button>
+        </div>
+
+
+        <div class="products-grid">
+
+            <div class="product-card" data-category="chair">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair1.png" alt="Sakarias Armchair">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Chair</span>
+                    <h3 class="product-title">Sakarias Armchair</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 392</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="chair">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair2.png" alt="Baltsar Chair">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Chair</span>
+                    <h3 class="product-title">Baltsar Chair</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 299</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="chair">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair3.png" alt="Anjay Chair">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Chair</span>
+                    <h3 class="product-title">Anjay Chair</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 519</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="chair">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair4.png" alt="Nyantuy Chair">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Chair</span>
+                    <h3 class="product-title">Nyantuy Chair</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 921</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card" data-category="beds" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair3.png" alt="Luxury Bed">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Beds</span>
+                    <h3 class="product-title">Luxury King Bed</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 750</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="beds" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair2.png" alt="Modern Bed">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Beds</span>
+                    <h3 class="product-title">Modern Wooden Bed</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 620</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="beds" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair4.png" alt="Minimalist Bed">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Beds</span>
+                    <h3 class="product-title">Minimalist Bed</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 540</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="beds" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair1.png" alt="Classic Bed">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Beds</span>
+                    <h3 class="product-title">Classic Storage Bed</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 890</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card" data-category="sofa" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair4.png" alt="Comfort Sofa">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Sofa</span>
+                    <h3 class="product-title">Comfort Velvet Sofa</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 680</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="sofa" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair3.png" alt="Modern Sofa">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Sofa</span>
+                    <h3 class="product-title">Modern Leather Sofa</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 950</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="sofa" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair1.png" alt="Simple Sofa">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Sofa</span>
+                    <h3 class="product-title">Simple Fabric Sofa</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 530</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="sofa" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair2.png" alt="Luxe Sofa">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Sofa</span>
+                    <h3 class="product-title">Luxe Modular Sofa</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 1120</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card" data-category="lamp" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair1.png" alt="Floor Lamp">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Lamp</span>
+                    <h3 class="product-title">Minimalist Floor Lamp</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 120</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lamp" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair3.png" alt="Table Lamp">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Lamp</span>
+                    <h3 class="product-title">Modern Table Lamp</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 85</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lamp" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair2.png" alt="Pendant Lamp">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Lamp</span>
+                    <h3 class="product-title">Pendant Ceiling Lamp</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 210</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lamp" style="display: none;">
+                <div class="card-img-wrapper">
+                    <img src="../mebel/images/chair4.png" alt="Desk Lamp">
+                </div>
+                <div class="card-content">
+                    <span class="category-name">Lamp</span>
+                    <h3 class="product-title">Industrial Desk Lamp</h3>
+                    <div class="stars">★★★★★</div>
+                    <div class="card-bottom">
+                        <span class="price">$ 95</span>
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="view-all-wrapper">
+            <a href="#" class="info-orange">
+                View All
+                <svg class="arrow-right" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="mebel-middle">
+        <div class="container">
+            <div class="middle-flex">
+                <div class="image-left">
+                    <img class="mebel-left" src="../mebel/images/mebel1.png" alt="">
+                </div>
+                <div class="text-right">
+                    <h5>experiences</h5>
+                    <h1>we provide you the <br> best experience</h1>
+                    <p>
+                        You don’t have to worry about the result because all of these <br>
+                        interiors are made by people who are professionals in their fields <br>
+                        with an elegant and lucurious style and with premium quality <br>
+                        materials
+                    </p>
+                    <a href="#" class="info-orange">
+                    More Info
+                    <svg class="arrow-right" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="mebel-middle">
+        <div class="container">
+            <div class="middle-flex">
+                <div class="text-right">
+                    <h5>Materials</h5>
+                    <h1>Very serious <br> materials for making <br> furniture</h1>
+                    <p>
+                        Because panto was very serious about designing furniture for our <br>
+                        environment, using a very expensive and famous capital but at a <br>
+                         relatively low price
+                    </p>
+                    <a href="#" class="info-orange">
+                    More Info
+                    <svg class="arrow-right" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                    </a>
+                </div>
+
+                <div class="image-left">
+                    <img class="mebel-left" src="../mebel/images/mebel1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-main">
+    <div class="container">
+        <div class="clients">
+            <h5 class="subtitle">testimonials</h5>
+            <h1>Our Client Reviews</h1>
+        </div>
+
+        <div class="slider-wrapper">
+            <button class="slider-btn prev-btn" aria-label="Previous">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            </button>
+
+            <div class="testimonials-track" id="sliderTrack">
+                
+                <div class="testimonial-card" style="background-image: url('../mebel/images/image-mebel2.png');">
+                    <div class="testimonial-content">
+                        <div class="user-avatar">
+                            <img src="../mebel/images/uservatar1.png" alt="Bang Upin">
+                        </div>
+                        <h3 class="user-name">Bang Upin</h3>
+                        <p class="user-role">Pedagang Asongan</p>
+                        <p class="user-text">“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal”</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" style="background-image: url('../mebel/images/image-mebel2.png');">
+                    <div class="testimonial-content">
+                        <div class="user-avatar">
+                            <img src="../mebel/images/useravatar2.png" alt="Ibuk Sukijan">
+                        </div>
+                        <h3 class="user-name">Ibuk Sukijan</h3>
+                        <p class="user-role">Ibu Rumah Tangga</p>
+                        <p class="user-text">“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah”</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" style="background-image: url('../mebel/images/image-mebel3.png');">
+                    <div class="testimonial-content">
+                        <div class="user-avatar">
+                            <img src="../mebel/images/useravatar2.png" alt="Mpok Ina">
+                        </div>
+                        <h3 class="user-name">Mpok Ina</h3>
+                        <p class="user-role">Karyawan Swasta</p>
+                        <p class="user-text">“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak”</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" style="background-image: url('../mebel/images/image-mebel2.png');">
+                    <div class="testimonial-content">
+                        <div class="user-avatar">
+                            <img src="../mebel/images/useravatar2.png" alt="Mpok Ina">
+                        </div>
+                        <h3 class="user-name">Mpok Ina</h3>
+                        <p class="user-role">Karyawan Swasta</p>
+                        <p class="user-text">“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak”</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" style="background-image: url('../mebel/images/image-mebel2.png');">
+                    <div class="testimonial-content">
+                        <div class="user-avatar">
+                            <img src="../mebel/images/useravatar2.png" alt="Mpok Ina">
+                        </div>
+                        <h3 class="user-name">Mpok Ina</h3>
+                        <p class="user-role">Karyawan Swasta</p>
+                        <p class="user-text">“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak”</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="slider-btn next-btn" aria-label="Next">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-col footer-info">
+                <a href="#" class="footer-logo">Panto</a>
+                <p class="footer-desc">
+                    The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Services</h4>
+                <ul class="footer-list">
+                    <li><a href="#">Email Marketing</a></li>
+                    <li><a href="#">Campaigns</a></li>
+                    <li><a href="#">Branding</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Furniture</h4>
+                <ul class="footer-list">
+                    <li><a href="#">Beds</a></li>
+                    <li><a href="#">Chair</a></li>
+                    <li><a href="#">All</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Follow Us</h4>
+                <ul class="footer-list social-list">
+                    <li>
+                        <a href="#" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Нижняя строка: копирайт и ссылки -->
+        <div class="footer-bottom">
+            <p class="copyright">Copyright © 2021</p>
+            <div class="footer-bottom-links">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
